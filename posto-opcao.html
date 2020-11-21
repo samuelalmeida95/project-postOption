@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilo1.css" />
+    <title>Posto Opção</title>
+  </head>
+  <body>
+    <div id="container">
+      <!-- inicio container -->
+      <header id="cabecalho">
+        <h1>Posto Opção</h1>
+      </header>
+
+      <article id="post">
+        <section id="entradas">
+          <h3>1 Gasolina | 2 Alcool | 3 Diesel</h3>
+          <input
+            type="number"
+            name="entrada1"
+            id="entrada1"
+            placeholder="tipo combustivel"
+          />
+
+          <input
+            type="number"
+            name="entrada2"
+            id="entrada2"
+            placeholder="reais em combustivel"
+          />
+
+          <input type="button" value="Calcular" onclick="calcular()"/>
+
+          <div id="resultado">Resultado</div>
+        </section>
+      </article>
+
+      <footer id="rodape">
+        <section>
+          Selecione o tipo do combustivel e o valor total abastecido
+        </section>
+      </footer>
+    </div>
+    <!-- final container -->
+
+    <script src="./posto.js"></script>
+  </body>
+</html>

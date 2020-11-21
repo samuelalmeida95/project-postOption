@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 15pt Comic Sans MS;
+}
+
+#container {
+   
+    padding: 10px;
+    width: 720px;
+    height: 380px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background:rgb(114, 114, 231);
+    color:white;
+}
+
+#cabecalho {
+   
+    text-align: center;
+    padding: 15px;   
+    box-sizing: border-box;
+}
+
+#entradas{
+    box-sizing: border-box;
+    height: 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+h3{
+    text-align: left;
+}
+
+#rodape{
+    box-sizing: border-box; 
+    text-align: center;  
+}
+
+input{
+    padding: 5px;
+    align-items: left;
+    display: block;
+    margin: 6px;
+    
+}
+
